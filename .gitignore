@@ -1,0 +1,28 @@
+# Secret Keys & Environment Variables
+.env
+.env.*
+!.env.example
+
+# Python Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+
+# Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector Databases & Local Persistence Data
+data/chroma_db/
+*.chroma
+*.sqlite3
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+
+# Testing & Evaluation Caches
+.pytest_cache/
+.coverage
